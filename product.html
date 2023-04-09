@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles/product.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="code_box">
+        <h1 id="code">NEW USER SAVE 15% - USE CODE | JAN23</h1>
+    </div>
+
+    <div id="nav">
+        <div id="logo_box">
+            <a href="index.html"> <img src="https://i.ibb.co/4S6M1js/premiun-auto-parts-logo.png"
+                    alt="website logo"></a>
+        </div>
+        <div id="search_box">
+            <input type="text" id="search_input" placeholder="search products here">
+            <button type="submit" id="search"><i class="fa fa-search"></i></button>
+        </div>
+        <div id="user_box">
+            <i id="user_icon" class='fa fa-user fa-lg' style='color:white;'></i><h4 id="username"></h4>
+            <button id="login"><a href="login.html">Login</a></button>
+            <button id="signup"><a href="signup.html">Signup</a></button>
+            <div id="logout_placeholder"></div>
+            <button style="font-size:24px"><a href="cart.html"> <span id="cart"></span><i
+                        class="fa fa-shopping-cart"></i></a></button>
+        </div>
+    </div>
+
+
+    <div id="products_box">
+        <div id="filter_by_category">
+            <p id="product_title">Filter By Category</p>
+            <button class="search_product" data-id="">All</button>
+            <button class="search_product" data-id="battery">Battery</button>
+            <button class="search_product" data-id="air">Air freshner</button>
+            <button class="search_product" data-id="Floor Mat">Floor Mat</button>
+            <button class="search_product" data-id="Seat Cover">Seat Cover</button>
+            <button class="search_product" data-id="Wiper">Wiper</button>
+            <button class="search_product" data-id="car wash">Car Wash</button>
+        </div>
+
+
+        <div id="Info_box">
+            <div id="result_box">
+                <h1 id="result"></h1>
+            </div>
+
+            <select id="sort">
+                <option value="">Sort By Price</option>
+                <option value="low to high">Low to High</option>
+                <option value="high to low">High to Low</option>
+            </select>
+
+            <div id="loading">
+                <h2>Loading...</h2>
+            </div>
+
+            </option></input>
+
+            <div id="container">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pagination-section">
+        <!-- Showing Pagination Buttons in this div -->
+    </div>
+
+    <div id="footer">
+        <div id="fotter_part">
+            <p>CUSTOMER SUPPORT</p>
+            <hr>
+            <ul>
+                <li>Accessibility Statement</li>
+                <li>Contact Us</li>
+                <li>Forgot Password</li>
+                <li>Help Desk</li>
+                <li>In Store Pickup</li>
+                <li>In Store Services</li>
+                <li>Order Tracking</li>
+                <li>Recall Information</li>
+                <li>Return Policy</li>
+                <li>Same Day Delivery</li>
+                <li>UBER Driver Rewards</li>
+            </ul>
+        </div>
+        <div id="fotter_part">
+            <p>ABOUT US</p>
+            <hr>
+            <ul>
+                <li>Affiliate Program</li>
+                <li>Career Opportunities</li>
+                <li>Corporate Information</li>
+                <li>Gift Cards</li>
+                <li>Investor Relations</li>
+                <li>2020 Annual Report</li>
+                <li>Annual Meeting Materials</li>
+                <li>Safety Data Sheets (SDS)</li>
+                <li>Press</li>
+                <li>Store Locator</li>
+            </ul>
+        </div>
+        <div id="fotter_part">
+            <p>PROFESSIONAL SHOPS</p>
+            <hr>
+            <ul>
+                <li>MyAdvance</li>
+                <li>Online Parts Ordering</li>
+                <li>TechNet Professional</li>
+                <li>Technical Training</li>
+                <li>Interactive Vehicle Animations</li>
+                <li>Promotions & Rewards</li>
+                <li>Annual Meeting Materials</li>
+                <li>Shop Solutions</li>
+                <li>Find My Mechanic</li>
+            </ul>
+        </div>
+        <div id="fotter_part">
+            <p>FOLLOW US</p>
+            <hr>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Pinterest</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<script src="scripts/product.js"></script>
